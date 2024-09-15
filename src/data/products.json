@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Pechuga de Pollo",
+    "description": "Pechuga de pollo deshuesada y sin piel",
+    "price": "3000",
+    "img": "Sin Imagen",
+    "code": "p002",
+    "stock": "150",
+    "category": "Carne de Aves",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "title": "Muslos de Pollo",
+    "description": "Muslos de pollo frescos",
+    "price": "2500",
+    "img": "Sin Imagen",
+    "code": "p003",
+    "stock": "200",
+    "category": "Carne de Aves",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "title": "Alitas de Pollo",
+    "description": "Alitas de pollo perfectas para hornear o freír",
+    "price": "2200",
+    "img": "Sin Imagen",
+    "code": "p004",
+    "stock": "120",
+    "category": "Carne de Aves",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "title": "Hígado de Pollo",
+    "description": "Hígado de pollo fresco, ideal para paté",
+    "price": "1800",
+    "img": "Sin Imagen",
+    "code": "p005",
+    "stock": "80",
+    "category": "Carne de Aves",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "title": "Mollejas de Pollo",
+    "description": "Mollejas de pollo limpias y frescas",
+    "price": "2000",
+    "img": "Sin Imagen",
+    "code": "p006",
+    "stock": "90",
+    "category": "Carne de Aves",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "title": "Filete de Pollo",
+    "description": "Filetes de pollo tiernos y jugosos",
+    "price": "3200",
+    "img": "Sin Imagen",
+    "code": "p007",
+    "stock": "110",
+    "category": "Carne de Aves",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "title": "Patas de Pollo",
+    "description": "Patas de pollo frescas, ideales para caldos",
+    "price": "1500",
+    "img": "Sin Imagen",
+    "code": "p008",
+    "stock": "130",
+    "category": "Carne de Aves",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "title": "Faisán",
+    "description": "Carne exótica, digna de la realeza",
+    "price": "4500",
+    "thumbnails": "Sin Imagen",
+    "code": "c2",
+    "stock": "245",
+    "category": "Carne de Aves",
+    "status": true
+  },
+  {
+    "id": null,
+    "title": "carcaraña",
+    "description": "carne chaja",
+    "price": 12345,
+    "thumbnails": [
+      ""
+    ],
+    "code": "435",
+    "stock": 5643,
+    "category": "carne de aves",
+    "status": true
+  }
+]

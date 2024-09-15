@@ -1,0 +1,48 @@
+<div class="container my-5">
+    <h1 class="text-center">Real time Products</h1>
+
+    <div class="d-flex justify-content-between my-4">
+        <a href="/home" class="btn btn-primary">Home</a>
+    </div>
+
+    <div class="row">
+        <div id="productCont" class="col-md-8"></div>
+
+        <section class="col-md-4">
+            <h2 class="text-center">Agregá desde aqui tus productos!</h2>
+            <form class="form__int">
+                <div class="mb-3">
+                    <input type="text" id="title" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="mb-3">
+                    <input type="text" id="description" class="form-control" placeholder="Descripcion">
+                </div>
+                <div class="mb-3">
+                    <input type="number" id="price" class="form-control" placeholder="Precio">
+                </div>
+                <div class="mb-3">
+                    <input type="text" id="img" class="form-control" value="Sin Imagen">
+                </div>
+                <div class="mb-3">
+                    <input type="text" id="code" class="form-control" placeholder="Codigo">
+                </div>
+                <div class="mb-3">
+                    <input type="number" id="stock" class="form-control" placeholder="Stock">
+                </div>
+                <div class="mb-3">
+                    <input type="text" id="category" class="form-control" placeholder="Categoria">
+                </div>
+                <div class="mb-3">
+                    <select id="status" class="form-select">
+                        <option value="true">Activo</option>
+                        <option value="false">Inactivo</option>
+                    </select>
+                </div>
+                <button type="button" id="btnEnviar" class="btn btn-primary w-100">Enviar</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+<script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+<script src="/js/main.js"></script>

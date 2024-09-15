@@ -1,0 +1,17 @@
+<div class="container my-5">
+    <h1 class="text-center">🐦🦃Delicias Aladas🦆🦢</h1>
+    <h2 class="text-center">Bienvenido {{usuario}}</h2>
+    <div class="d-flex justify-content-between my-4">
+        <a href="api/sessions/admin" class="btn btn-primary">Agregar/editar Productos</a>
+        <a href="/realtimecarts" class="btn btn-primary">mis carritos</a>
+        <form action="/api/sessions/logout" method="POST">
+        <button type="submit" class="btn btn-primary button"> Cerrar sesion </button>
+    </form>
+    </div>
+
+    
+    <div id="productList" class="row"></div>
+</div>
+
+<script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+<script src="/js/home.js"></script>
